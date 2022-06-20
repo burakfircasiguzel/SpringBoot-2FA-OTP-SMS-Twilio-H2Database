@@ -1,4 +1,4 @@
-# springboot-twilio
+# SpringBoot-OTP-SMS-Twilio-H2Database
 - Open and change application.yml
 ```yml
 twilio:
