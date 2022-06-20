@@ -6,6 +6,8 @@ import com.example.demo.entities.User;
 import com.example.demo.repos.OneTimePasswordRepository;
 import com.example.demo.repos.UserRepository;
 import com.example.demo.requests.*;
+import com.twilio.rest.api.v2010.account.Message;
+import com.twilio.rest.api.v2010.account.MessageCreator;
 import com.twilio.type.PhoneNumber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,8 +50,8 @@ public class TwilioSmsSender implements OTPSmsSender {
             PhoneNumber from = new PhoneNumber(twilioConfiguration.getTrialNumber());
             String otp = generateOTP();
             String otpMessage = "Dear Customer , Your OTP is ##" + otp + "##";
-            //MessageCreator creator = Message.creator(to, from, otpMessage);
-            //creator.create();
+            MessageCreator creator = Message.creator(to, from, otpMessage);
+            creator.create();
             OneTimePassword oneTimePassword = new OneTimePassword();
             if (user.getUsername() != null) {
                 oneTimePassword.setUser(user);
