@@ -40,5 +40,6 @@ Technologies used in the project:
 
 *   Java
 *   Springboot
+*   H2 Database
 *   Two Factor Authentication
 *   One Time Password
