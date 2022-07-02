@@ -39,7 +39,7 @@ twilio:
 
 <h4>1 - Register</h4>
 
-- To register first, Make a POST request at ```/user/register``` like a
+- To register first, Make a POST request at "/user/register" like a
 
 ```java
 {
@@ -48,8 +48,9 @@ twilio:
     "telephoneNumber": "+905555555555"   
 }
 ```
+<br><br>
 <h4>2 - Basic Login</h4>
-- To normal login, Make a POST request at  ```/user``` like a
+- To normal login, Make a POST request at  "/user" like a
 
 ```java
 {
@@ -59,9 +60,12 @@ twilio:
 ```
 - If the credentials are `correct` , an OTP code will be sent to the phone number registered via SMS.
 
+<br><br>
+
 <h4>3 - Login with OTP Code</h4>
 - Add the code in the incoming SMS to the request
-- To OTP login, Make a POST request at ```/user/secret``` like a
+<br>
+- To OTP login, Make a POST request at "/user/secret" like a
 
 ```java
 {
@@ -70,7 +74,7 @@ twilio:
 }
 ```
 - If the code is `correct`, it will return the message `"Welcome to the hidden page"`.
-- Thats it.
+- That's it.
 
 
 <br>
