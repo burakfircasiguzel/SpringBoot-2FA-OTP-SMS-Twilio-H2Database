@@ -1,8 +1,8 @@
 <h1 align="center" id="title">Springboot 2FA OTP SMS with Twilio</h1>
 
-![SpringBoot-OTP-SMS-Twilio-H2Database](https://socialify.git.ci/burakfircasiguzel/SpringBoot-OTP-SMS-Twilio-H2Database/image?description=1&descriptionEditable=Two%20Factor%20Authentication%20Usage%20%26%20Sending%20OTP%20SMS%20Using%20Twilio&font=Bitter&language=1&name=1&owner=1&pattern=Formal%20Invitation&stargazers=1&theme=Light)
+![SpringBoot-2FA-OTP-SMS-Twilio-H2Database](https://socialify.git.ci/burakfircasiguzel/SpringBoot-2FA-OTP-SMS-Twilio-H2Database/image?description=1&descriptionEditable=Two%20Factor%20Authentication%20Usage%20%26%20Sending%20OTP%20SMS%20Using%20Twilio&font=Raleway&language=1&name=1&owner=1&pattern=Charlie%20Brown&theme=Light)
 
-<p id="description">Two Factor Authentication usage &amp; Sending OTP SMS using Twilio</p>
+<p id="description">Two Factor Authentication Usage &amp; Sending OTP SMS Using Twilio</p>
 
   
   
