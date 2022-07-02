@@ -19,17 +19,60 @@ Here're some of the project's best features:
 
 <br>
 
+<p>1. 1</p>
 
 ```yml
+- Enter the API information you got from twilio.com into application.yml
+
 twilio:
   account_sid: #your account sid
   auth_token: #your auth token
   trial_number: # your trial number
-
-- Run the application
-- Start sending sms's
-- That simple
 ```
+
+<p>1. 2</p>
+
+```yml
+- Run the application
+```
+<h2>🎈 Usage Steps:</h2>
+
+<h4>1 - Register</h4>
+
+- To register first, Make a POST request at ```/user/register``` like a
+
+```java
+{
+    "username" : "burak",
+    "password" : "123456",
+    "telephoneNumber": "+905555555555"   
+}
+```
+<h4>2 - Basic Login</h4>
+- To normal login, Make a POST request at  ```/user``` like a
+
+```java
+{
+    "username" : "burak",
+    "password" : "123456"
+}
+```
+- If the credentials are `correct` , an OTP code will be sent to the phone number registered via SMS.
+
+<h4>3 - Login with OTP Code</h4>
+- Add the code in the incoming SMS to the request
+- To OTP login, Make a POST request at ```/user/secret``` like a
+
+```java
+{
+    "username" : "burak",
+    "code" : "148253"
+}
+```
+- If the code is `correct`, it will return the message `"Welcome to the hidden page"`.
+- Thats it.
+
+
 <br>
 
   
