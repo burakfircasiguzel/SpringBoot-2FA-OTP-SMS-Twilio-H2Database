@@ -22,7 +22,9 @@ Here're some of the project's best features:
 <p>1. 1</p>
 
 ```yml
-- Enter the API information you got from twilio.com into application.yml
+- Note: You can also work with another SMS provider, I chose Twilio in this project.
+- Register from this address first ->  www.twilio.com
+- Enter the API information you got from Twilio into application.yml
 
 twilio:
   account_sid: #your account sid
