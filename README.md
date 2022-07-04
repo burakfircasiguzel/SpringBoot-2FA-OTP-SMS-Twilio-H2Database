@@ -49,7 +49,7 @@ twilio:
 }
 ```
 <br><br>
-<h4>2 - Basic Login</h4>
+<h4>2 - Normal Login</h4>
 - To normal login, Make a POST request at  "/user" like a
 
 ```java
